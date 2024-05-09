@@ -1,193 +1,265 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="emojionearea.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="emojionearea.js"></script>
+  </head>
+  <body>
+    <div id="menu">
+      <!-- <center>
+        <div class="image-cropper">
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+        </div>
+      </center> -->
+      <ul class="ul-menu">
+        <li><a href="#about" data-hover="About Me">About Me</a></li>
+        <li><a href="#photos" data-hover="My Photos">My Photos</a></li>
+        <li><a href="#playlist" data-hover="My Playlist">My Playlist</a></li>
+        <li><a href="#like" data-hover="Like">Like</a></li>
+        <li><a href="#qrcoder" data-hover="QR code">QR code</a></li>
+        <li><a href="#spa" data-hover="Q&A">Q&A</a></li>
+        <li><a href="#contact" data-hover="Contact Me">Contact Me</a></li>
+      </ul>
+    </div>
+          
+    <section id="about" class="section">
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <h1 align="center">אודות</h1>
+      <center>
+          <div height="100%" style="font-size:larger">
+              אתר זה הוקם אודות סבתי האהובה - הילה לאון <br /><br />
+              ,הילה נולדה לשם הלגה שולצה בברלין <br /><br />
+              בהיותה בת 3 פרצה מלחמת העולם השנייה ועל מנת להציל אותה ואת אחיה <br /><br />
+              .אביה שלח אותם למשפחות אומנה בצ'כיה שם גודלו כילדים נוצריים<br /><br />
+              ,לאחר סיום המלחמה עלתה לארץ במסגרת עליית הנוער לקיבוץ אלונים <br /><br />
+              .שם הכירה את סבי, בני לאון <br /><br />
+              השניים התחתנו ונולדו להם 2 בנות, 5 נכדים ו-7 נינים <br /><br />
+              סבתא שלי היא אישה חזקה, אוהבת, דואגת ומפנקת <br /><br />
+              <מאחלת לה המון בריאות ושתזכה לראות עוד המון נינים 3<br /><br />
+          </div>
+      </center>
+    </section>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="photos" class="section">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      my photos
+      <br/>
+      <br/>
+      <br/>
+    </section>
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="playlist" class="section">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      my playlist
+      <br/>
+      <br/>
+      <br/>
+    </section>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="like" class="section">
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <h1 align="center">Like Us on Facebook!</h1>
+      <br /><br /><br /><br />
+      <center>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html&width=450&layout&action&size&share=true&height=35&appId" width="138" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </center>
+      </section>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+      <section id="qrcoder" class="section">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <h1 align="center">Scan our QR Code</h1>
+        <br />
+        <center>
+            <!-- <img src=Images/QR.PNG id="QRCode" /> -->
+        </center>
+    </section>
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="spa" class="section">
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+      <h1 align="center">שאלות ותשובות</h1>
+      <h4 align="center" dir="rtl" style="font-family: Calibri">הבדלים בין Web1, Web2 ו-Web3</h4>
+      <table align="center" style="font-family: 'Cambria Math'; width: 1000px; font-size:medium" dir="rtl" border="1">
+          <tr style="font-size:large; color:cadetblue">
+              <td> </td>
+              <td><strong> Web 1 </strong></td>
+              <td><strong> Web 2 </strong></td>
+              <td><strong> Web 3 </strong></td>
+          </tr>
+          <tr style="font-family: Calibri">
+              <td>1</td>
+              <td>
+                  משמש בעיקר לקריאה בלבד עם אינטראקציה קטנה מאוד בין הצרכן לאתר, <br/>
+                  הצרכן יכול להחליף את המידע באתר אבל לא הייתה אינטראקציה עם האתר. <br/>
+                  מאופיינת בדפים סטטים
+              </td>
+              <td>
+                  אפשרות  של כתיבה בנוסף לקריאה, מאפשר ניהול <br />
+                  קהל גלובלי גדול עם אינטרסים משותפים באינטראקציה חברתית 
+              </td>
+              <td>
+                  רשת המספקת תוכן מותאם אישית. <br />
+                  תומך במסד נתונים גלובלי וארכיטקטורה מונחת web <br />
+                  המאפשרת יצירה של תוכן איכותי ושל השירותים המיוצרים
+              </td>
+          </tr>
+          <tr height="10px"</tr>
+          <tr style="font-family: Calibri">
+              <td>2</td>
+              <td>
+                  חברות מפרסמות תוכן שאנשים צורכים. <br />
+                  מנהל האתר אחראי על עדכון משתמשים וניהול התוכן
+              </td>
+              <td>
+                  אנשים מפרסמים תוכן שאנשים אחרים יכולים לצרוך, חברות בונות <br />
+                  פלטפורמות שמאפשרות לאנשים לפרסם תוכן בשביל אנשים אחרים
+              </td>
+              <td>
+                  אנשים בונים אפליקציות שלאנשים אחרים יכולה להיות אינטרקציה איתן, <br />
+                  חברות בונות פלטפורמות שמאפשרות אנשים לפרסם שירותים ע"י מינוף <br />
+                  הקשר בין אנשים או תוכן מיוחד
+              </td>
+          </tr>
+          <tr height="10px"</tr>
+          <tr style="font-family: Calibri">
+              <td>3</td>
+              <td>
+                  מנועי חיפוש מאחזרים תוכן מאקרו. החיפוש הוא מהיר <br />
+                  מאוד אבל הרבה פעמים התוצאות לא מדויקות או יותר <br />
+                  ממה שאנשים יכולים להכיל
+              </td>
+              <td>
+                  מנועי החיפוש מאחזרים תגיות עם תוכן מיקרו. תהליך התיוג הוא ידני <br />
+                  ומכסה אחוזים אפסיים מהאינטרנט
+              </td>
+              <td>
+                  מנועי חיפוש יאחזרו טקסטים עם תוכן מיקרו אשר מתוייגים אוטומטית. <br />
+                  חיפוש מדויק יותר. <br />
+                  החיפוש לא רק לפי מילות מפתח, אלא חיפוש  סמנטי יותר
+              </td>
+          </tr>
+      </table>
+      <br /><br /><br />
+      <h4 align="center" dir="rtl" style="font-family: Calibri">דוגמא לחיפוש שאילתא: הופעות בזאפה תל אביב</h4>
+      <table align="center" dir="rtl" border="1">
+          <tr style="font-family:'Cambria Math'; font-size:large; color:cadetblue">
+              <td><strong> Web 1 </strong></td>
+              <td width="5px"></td>
+              <td><strong> Web 2 </strong></td>
+              <td width="5px"></td>
+              <td><strong> Web 3 </strong></td>
+          </tr>
+          <tr style="font-family: Calibri">
+              <td>
+                  יוחזר למשתמש מידע מחברות או ארגונים הפרסמו דפים <br />
+                  בנושא של השילתא <br />
+                  המידע לא בהכרח יהיה רלוונטי למה שהמשתמש חיפש <br />
+                  המשתמש יוכל רק לצפות במידע <br />
+              </td>
+              <td width="5px"></td>
+
+              <td>
+                  נקבל תוצאות בהם השאילתא הוכנסה כתיוג לעמוד <br />
+                  מקור התוצאות הוא חברה או בלוגים של אנשים שהחליטו לרשום מידע על התיוג
+              </td>
+              <td width="5px"></td>
+              <td>
+                  נקבל תוצאות הקשורות למילות השאילתא:<br />
+                  מילים שהופיעו בשאילתא ומילים שקרובות לשאילתא <br />
+                  בצורה סמטית <br />
+                  תוצאות המתאימות ורלוונטיות ביותר למילות לשאילתא
+              </td>
+          </tr>
+      </table>
+    </section>
+
+    <section id="contact" class="section">
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <h1 align="center">צור קשר</h1>
+      <br />
+      <center>
+          <form action="mailto:shayher@post.bgu.ac.il" method="post" enctype="text/plain">
+              <table border=1 align=center cellpadding="0" cellspacing="0" bordercolor="white" width="60%" dir="rtl">
+                  <tr height="50px">
+                      <td align="center">שם</td>
+                      <td>
+                          <input type="text" name="name">
+                      </td>
+                  </tr>
+                  <tr height="50px">
+                      <td align="center">אימייל</td>
+                      <td>
+                          <input type="text" name="email">
+                      </td>
+                  </tr>
+                  <tr height="50px">
+                      <td align="center">תוכן ההודעה</td>
+                      <td>
+                          <textarea id="text" width="60%" name="text"></textarea>
+                          <script type="text/javascript">
+                              $(document).ready(function () {
+                                  $("#text").emojioneArea({
+                                  });
+                              })
+                          </script>
+                      </td>
+                  </tr>
+                  <tr></tr>
+                  <tr>
+                      <td align="center" colspan="2">
+                          <input type="submit" value="שלח" font-family="calibri">
+                      </td>
+                  </tr>
+              </table>
+          </form>
+      </center>
+    </section>
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
-</body>
+    <script type="text/javascript">
+      $(function(){
+        $("#nav a").click(function(e){
+          e.preventDefault();
+          $('html,body').scrollTo(this.hash,this.hash); 
+        });
+      });
+      </script>
+      <script type="text/javascript">
+        $(document).scroll(function() {
+            $('#menu').toggle($(this).scrollTop()>1000)
+        });​
+    </script>
+  </body>
 </html>
