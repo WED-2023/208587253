@@ -106,12 +106,12 @@ body {
     text-align: center;
 }
 
-img {
+.image-container img {
     max-width: 100%;
     height: auto;
     opacity: 0.5;
 }
 
-img:hover {
+.image-container img:hover {
     opacity: 1;
 }
